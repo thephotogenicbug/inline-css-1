@@ -1,0 +1,26 @@
+css : Cascading style Sheet, it has collection of property and values, it used to change look and feel of html page.
+
+ HTML :Hyper text markup language, it has collection of tags with limited property and values
+ 
+ Well design webpage = html(tags)+ css (property and values)
+		Types of css ?
+		-> inline css (better for learning) not much in used
+		-> internal css (20% in use)
+		-> External css (80% in use)
+		
+		
+		List of property and values
+		-> text-align: left, right, center, justify
+		-> float: it used to convert from block level element to inline element
+		           it has 2 fixed values 
+				   --> left : it arrange the container from left to right
+				   -- right : it arrange the container from right to left
+				   
+				   
+		--> margin : to apply gap(spaces) from respective side(top, left, right, bottom, all)		   
+		  margin:auto; it align in center of present area
+		  margin: 20px; it apply gap of 20px from left, right, top, bottom
+		  margin-right:20px;
+		  margin-bottom:20px;
+		  margin-top:20px;
+		  margin-left:20px;
