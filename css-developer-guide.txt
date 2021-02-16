@@ -4,7 +4,15 @@ css : Cascading style Sheet, it has collection of property and values, it used t
  
  Well design webpage = html(tags)+ css (property and values)
 		Types of css ?
-		-> inline css (better for learning) not much in used
+		-> inline css (better for learning) not much in used 
+		  --> it is one to one -- write css code 1 time and use only 1 time 
+		  --> if one to one then code duplicate will happen 
+		  --> if code is duplicate file weight will increase
+		  --> if file is heavy then page loading will be slow 
+		  --> if page load slow user experience may be bad 
+		  --> if code duplicate changes become complex, more disk space is required
+		  --> google may reject page from google search
+		  
 		-> internal css (20% in use)
 		-> External css (80% in use)
 		
@@ -24,3 +32,26 @@ css : Cascading style Sheet, it has collection of property and values, it used t
 		  margin-bottom:20px;
 		  margin-top:20px;
 		  margin-left:20px;
+		  
+		  padding: use to apply space inside of container
+		     padding:20px; it apply 20px gap from all side
+			 padding-left:20px; it apply 20px gap from left side
+			 padding-right:20px; it apply 20px gap from right side
+			 padding-top:20px; it apply 20px gap from top side
+			 padding-bottom:20px; it apply 20px gap from bottom side
+			 
+			
+			
+		display:inline; it used to convert from block to inline(suitable for li, h1 to h6)
+		
+		border : used to apply border for a container 
+		         synatx : border:thickness type color
+				 Example: border:10px solid red
+				 
+				 border:10px solid red; to apply border from all side
+				 border-top:10px solid red; to apply border from top side
+				 border-left:10px solid red; to apply border from left side
+				 border-left:10px solid red; to apply border from right side
+				 border-bottom:10px solid red; to apply border from bottom side 
+				 
+		clear:both; it used to apply non visible border between lower and higher index element	 
