@@ -14,6 +14,15 @@ css : Cascading style Sheet, it has collection of property and values, it used t
 		  --> google may reject page from google search
 		  
 		-> internal css (20% in use)
+		--> it is one to many (write css once and use many times in current page)
+		 to make 1 to many following methods are given by css 
+		 1. css by tag name 
+		 2. css by id
+		 3. css by class
+		 4. css by parent child tag
+		 5. css by tag group
+		 
+		 Note : above 5 methods are applicable in internal, external , import css
 		-> External css (80% in use)
 		
 		
